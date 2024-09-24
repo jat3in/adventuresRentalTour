@@ -8,7 +8,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
         className="flex items-center justify-between w-full p-4"
         onClick={onClick}
       >
-        <h1 className="font-semibold text-gray-700">{question}</h1>
+        <h1 className="font-semibold text-gray-700 text-start">{question}</h1>
         <span
           className={`text-white rounded-full p-1 transition-colors duration-300 ${
             isOpen ? "bg-[#FFDA32]" : "bg-[#0F1E32]"

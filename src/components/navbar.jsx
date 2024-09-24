@@ -32,10 +32,14 @@ const Navbar = () => {
         </div>
         <div className="flex items-center h-full gap-x-2">
           <div className="rounded-full border-[1px] border-white p-0.5">
-            <FaFacebookF className="text-white "></FaFacebookF>
+            <a href="https://www.facebook.com/share/4kuGhhyiK9tdwnr4/?mibextid=qi2Omg">
+              <FaFacebookF className="text-white "></FaFacebookF>
+            </a>
           </div>
           <div className="rounded-full border-[1px] border-white p-0.5">
-            <FaInstagram className="text-white "></FaInstagram>
+            <a href="https://www.instagram.com/tourplaner.in?utm_source=qr&igsh=eW91Zmt4MHFmOWRt">
+              <FaInstagram className="text-white "></FaInstagram>
+            </a>
           </div>
         </div>
       </div>

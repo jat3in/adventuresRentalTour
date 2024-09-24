@@ -10,7 +10,7 @@ const SalesBanner = () => {
   return (
     <section className="px-4">
       <div
-        className={`${gradientClasses} p-6 sm:p-10 rounded-2xl w-full text-white flex items-center justify-between max-w-[1200px] mx-auto mt-20`}
+        className={`${gradientClasses} overflow-hidden p-6 sm:p-10 rounded-2xl w-full text-white flex items-center justify-between max-w-[1200px] mx-auto mt-20`}
       >
         <div className="flex flex-col gap-6">
           <div>
@@ -22,11 +22,11 @@ const SalesBanner = () => {
           </div>
           <a href={`tel:${phoneNumber}`} className={buttonClasses}>
             <span>Call Now {phoneNumber}</span>
-            <FaArrowRight className="group-hover:translate-x-1 transition-transform ease duration-200" />
+            <FaArrowRight className="group-hover:translate-x-1 transition-transform ease duration-200 " />
           </a>
         </div>
-        <div>
-          <FaGift className="w-20 h-20 text-gray-100" />
+        <div className="relative h-full ">
+          <FaGift className="size-56 text-gray-100 absolute -top-40 -right-28 -rotate-45 opacity-45" />
         </div>
       </div>
     </section>

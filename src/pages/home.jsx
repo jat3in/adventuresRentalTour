@@ -7,6 +7,8 @@ import SalesBanner from "../components/banner";
 import SignUpForm from "../components/form";
 import Footer from "../components/footer";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
+
+
 const Home = () => {
   const navigate = useNavigate(); // Initialize navigate
 
@@ -144,7 +146,7 @@ const Home = () => {
         <FAQSection></FAQSection>
       </section>
       <section className="py-16  w-full bg-gray-100">
-        <div className="max-w-sm mx-auto">
+        <div className="md:max-w-sm max-w-sm mx-auto px-4">
           <SignUpForm></SignUpForm>
         </div>
       </section>

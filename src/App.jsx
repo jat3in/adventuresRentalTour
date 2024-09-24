@@ -1,27 +1,49 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Home from "./pages/home";
 import Tour from "./pages/tour";
+import SignUpForm from "./components/form";
+const Modal = ({ isOpen, onClose }) => {
+  useEffect(() => {
+    if (isOpen) {
+      const timer = setTimeout(() => {
+        onClose();
+      }, 7500);
+
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen, onClose]);
+
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div className="bg-white p-8 rounded-lg shadow-lg relative md:max-w-md max-w-sm w-full">
+        <button
+          onClick={onClose}
+          className="absolute top-2 right-2 text-[#FFDA32] bg-[#0F1E32] hover:text-[#0F1E32]  hover:bg-[#FFDA32] rounded-full size-8"
+        >
+          ✕
+        </button>
+        <section>
+          <SignUpForm></SignUpForm>
+        </section>
+      </div>
+    </div>
+  );
+};
 
 function App() {
-  const vacationSpots = [
-    {
-      src: "https://images.unsplash.com/photo-1560853950-2502ec2ab867?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      span: "md:col-span-2 md:row-span-2",
-      title: "Kashmir",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1657894736581-ccc35d62d9e2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      span: "md:col-span-1 row-span-1",
-      title: "Kullu",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1720513138417-5c8eb0b2d660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNoaW1sYXxlbnwwfDF8MHx8fDI%3D",
-      span: "md:col-span-1 row-span-1",
-      title: "Manali",
-    },
-  ];
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    setIsModalOpen(true);
+  }, []);
+
   return (
     <>
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+
       <Router>
         <div className="w-full h-full">
           <Routes>
