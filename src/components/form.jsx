@@ -1,8 +1,9 @@
 import { useState } from "react";
+import axios from "axios";
 const SignUpForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    phoneNumber: "",
+    username: "",
+    phone: "",
     email: "",
     date: "",
   });
@@ -17,11 +18,29 @@ const SignUpForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const { username, phone, email, date} = formData;
+    console.log(formData);
+    if (!email && !username && !phone) alert("Please fill all fields");
+    axios
+      .post(
+        `http://localhost:3000/contact`,
+        formData
+      )
+      .then((res) => {
+        if (res.message === "contact created successfully") {
+          alert("Contact Form submited");
+          
+        } else {
+          alert(res.data.message);
+        }
+      });
+
   };
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-      {["name", "phoneNumber", "email", "date"].map((field) => (
+      {["username", "phone", "email", "date"].map((field) => (
         <div key={field} className="w-full">
           <label className="block mb-2 text-sm text-[#0F1E32]" htmlFor={field}>
             {field.charAt(0).toUpperCase() +

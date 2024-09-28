@@ -7,7 +7,7 @@ const packages = [
     transportation: "02 Luxury AC Semi Sleeper Volvo ",
     meals: "03 Breakfast And 03 Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1621340978972-1e3717f1eef6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "public/kmvt.jpg",
     brief:
       "This package offers a scenic journey to Kullu and Manali via luxury Volvo buses. Experience the breathtaking landscapes and enjoy a mix of comfort and adventure, with accommodation in deluxe rooms. The tour includes local sightseeing, with opportunities to explore famous attractions like Solang Valley and Kullu Manikaran.",
     details: [
@@ -33,7 +33,7 @@ const packages = [
     transportation: "02 Volvo Tickets",
     meals: "02 Breakfast And 02 Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1704275627639-8cb63f7b6961?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "public/svtp.jpg",
     brief:
       "Discover the charm of Shimla with comfortable Volvo travel and sightseeing.",
     details: [
@@ -54,7 +54,7 @@ const packages = [
     transportation: "02 Volvo Bus Tickets",
     meals: "05 Breakfast And 05 Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1667029838861-2fe3a590a1d2?q=80&w=2136&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "public/shimla-km vol.jpg",
     brief:
       "Explore Shimla, Kullu, and Manali with comfortable Volvo travel and sightseeing.",
     details: [
@@ -82,7 +82,7 @@ const packages = [
     transportation: "02 Luxury Volvo Bus",
     meals: "04 Breakfast And 04 Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1653454656100-0fd5ea96bebf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "public/dharmshala dalhousie.jpg",
     brief:
       "Experience the beauty of Dharamshala and Dalhousie with luxury Volvo travel.",
     details: [
@@ -103,7 +103,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "Breakfast And Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1667029839334-73226679baca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U2hpbWxhJTIwS3VsbHUlMjBNYW5hbGl8ZW58MHwwfDB8fHwy",
+      "public/skmct.jpg",
     brief:
       "Explore Shimla, Kullu, and Manali with comfortable car travel and sightseeing.",
     details: [
@@ -125,7 +125,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "Breakfast And Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1676490081752-2cd8404a8609?q=80&w=2018&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "public/shimla manali with chandigarh.jpg",
     brief:
       "Experience Shimla, Manali, and Chandigarh with comfortable car travel.",
     details: [
@@ -148,7 +148,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "08 Breakfast And 08 Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1679407985739-b6df6dcf2e44?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "public/htp.jpg",
     brief:
       "Comprehensive tour of Himachal Pradesh covering major destinations.",
     details: [
@@ -173,7 +173,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "09 Breakfast And 09 Dinner",
     imgSrc:
-      "https://images.unsplash.com/photo-1700982938897-08f1072f969b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhpbWFjaGFsJTIwcHJhZGVzaCUyMGluZGlhfGVufDB8MHwwfHx8Mg%3D%3D",
+      "public/hwgt.jpg",
     brief: "Explore Himachal Pradesh and visit the Golden Temple in Amritsar.",
     details: [
       "02 Nights Accommodation At Shimla",
