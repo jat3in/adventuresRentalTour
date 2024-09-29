@@ -42,7 +42,7 @@ const Carousel = ({ images }) => {
             trip with ease.
           </p>
           <button className="bg-[#FFDA32] md:py-2 md:px-4 px-2 py-1 rounded-lg text-white font-semibold mt-3">
-            Book an Enquiry
+           <a href="/"> Book an Enquiry </a>
           </button>
         </div>
       </div>
