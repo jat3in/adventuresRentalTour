@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Home from "./pages/home";
 import Tour from "./pages/tour";
 import SignUpForm from "./components/form";
+import WhatsAppButton from "./components/whatsApp"
 const Modal = ({ isOpen, onClose }) => {
   useEffect(() => {
     if (isOpen) {
@@ -43,6 +44,7 @@ function App() {
   return (
     <>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <WhatsAppButton></WhatsAppButton>
 
       <Router>
         <div className="w-full h-full">
