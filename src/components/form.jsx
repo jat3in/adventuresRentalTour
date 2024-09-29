@@ -24,7 +24,7 @@ const SignUpForm = () => {
     if (!email && !username && !phone) alert("Please fill all fields");
     axios
       .post(
-        `https://tourplaner-1.onrender.com/contact`,
+        `https://tourplaner-4.onrender.com/contact`,
         formData
       )
       .then((res) => {
