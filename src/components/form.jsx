@@ -5,7 +5,7 @@ const SignUpForm = () => {
     username: "",
     phone: "",
     email: "",
-    date: "",
+    date: ""
   });
 
   const handleChange = (e) => {
@@ -19,7 +19,7 @@ const SignUpForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { username, phone, email, date} = formData;
+    const { username, phone, email} = formData;
     console.log(formData);
     if (!email && !username && !phone) alert("Please fill all fields");
     axios

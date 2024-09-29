@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center h-full gap-x-2">
           <div className="rounded-full border-[1px] border-white p-0.5">
-            <a href="https://www.facebook.com/share/4kuGhhyiK9tdwnr4/?mibextid=qi2Omg">
+            <a href="https://www.facebook.com/share/r/KVWvEf2rHeTYWgH3/?mibextid=qi2Omg">
               <FaFacebookF className="text-white "></FaFacebookF>
             </a>
           </div>
