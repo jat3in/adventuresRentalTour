@@ -7,7 +7,7 @@ const packages = [
     transportation: "02 Luxury AC Semi Sleeper Volvo ",
     meals: "03 Breakfast And 03 Dinner",
     imgSrc:
-      "public/kmvt.jpg",
+      "/kmvt.jpg",
     brief:
       "This package offers a scenic journey to Kullu and Manali via luxury Volvo buses. Experience the breathtaking landscapes and enjoy a mix of comfort and adventure, with accommodation in deluxe rooms. The tour includes local sightseeing, with opportunities to explore famous attractions like Solang Valley and Kullu Manikaran.",
     details: [
@@ -33,7 +33,7 @@ const packages = [
     transportation: "02 Volvo Tickets",
     meals: "02 Breakfast And 02 Dinner",
     imgSrc:
-      "public/svtp.jpg",
+      "/svtp.jpg",
     brief:
       "Discover the charm of Shimla with comfortable Volvo travel and sightseeing.",
     details: [
@@ -54,7 +54,7 @@ const packages = [
     transportation: "02 Volvo Bus Tickets",
     meals: "05 Breakfast And 05 Dinner",
     imgSrc:
-      "public/shimla-km vol.jpg",
+      "/shimla-km vol.jpg",
     brief:
       "Explore Shimla, Kullu, and Manali with comfortable Volvo travel and sightseeing.",
     details: [
@@ -82,7 +82,7 @@ const packages = [
     transportation: "02 Luxury Volvo Bus",
     meals: "04 Breakfast And 04 Dinner",
     imgSrc:
-      "public/dharmshala dalhousie.jpg",
+      "/dharmshala dalhousie.jpg",
     brief:
       "Experience the beauty of Dharamshala and Dalhousie with luxury Volvo travel.",
     details: [
@@ -103,7 +103,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "Breakfast And Dinner",
     imgSrc:
-      "public/skmct.jpg",
+      "/skmct.jpg",
     brief:
       "Explore Shimla, Kullu, and Manali with comfortable car travel and sightseeing.",
     details: [
@@ -125,7 +125,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "Breakfast And Dinner",
     imgSrc:
-      "public/shimla manali with chandigarh.jpg",
+      "/shimla manali with chandigarh.jpg",
     brief:
       "Experience Shimla, Manali, and Chandigarh with comfortable car travel.",
     details: [
@@ -148,7 +148,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "08 Breakfast And 08 Dinner",
     imgSrc:
-      "public/htp.jpg",
+      "/htp.jpg",
     brief:
       "Comprehensive tour of Himachal Pradesh covering major destinations.",
     details: [
@@ -173,7 +173,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "09 Breakfast And 09 Dinner",
     imgSrc:
-      "public/hwgt.jpg",
+      "/hwgt.jpg",
     brief: "Explore Himachal Pradesh and visit the Golden Temple in Amritsar.",
     details: [
       "02 Nights Accommodation At Shimla",
