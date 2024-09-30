@@ -41,12 +41,13 @@ const Navbar = () => {
               <FaInstagram className="text-white "></FaInstagram>
             </a>
           </div>
+         
         </div>
       </div>
       <div className="w-full h-9 flex items-center justify-between lg:px-4 px-2 shadow-sm">
         <div className="flex h-full items-center justify-start flex-grow">
           <FaSuitcaseRolling className="text-[#13253F]" />
-          <Link to="/" className="pl-1 text-[#13253F] font-semibold">
+          <Link to="/" className="pl-1 text-[#1d242f] font-semibold">
             TourPlanner
           </Link>
         </div>
@@ -74,3 +75,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

@@ -33,14 +33,7 @@ const Carousel = ({ images }) => {
           alt="Carousel"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center bg-black bg-opacity-40">
-          <h1 className="md:text-5xl text-xl font-semibold text-white md:py-6 pb-2 max-w-xl">
-            Let's journey and discover a place.
-          </h1>
-          <p className="text-white/80 md:max-w-2xl max-w-xs md:text-base text-sm px-4">
-            Life is unpredictable, and we understand that plans might change.
-            Enjoy flexible booking options, so you can reschedule or modify your
-            trip with ease.
-          </p>
+          <img src="/lg-removebg-preview.png"/>
           <button className="bg-[#FFDA32] md:py-2 md:px-4 px-2 py-1 rounded-lg text-white font-semibold mt-3">
            <a href="/"> Book an Enquiry </a>
           </button>
