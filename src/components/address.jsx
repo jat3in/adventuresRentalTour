@@ -7,6 +7,9 @@ const Address = () => {
         Gali no 7, Pillar no 725, Hanuman Mandir Road, <br />
         Near Nawada Metro Station, Uttam Nagar, Delhi
       </p>
+      <strong className="mx-auto text-[#FFDA32]">
+        © 2024 Copyright: <a href="https://tourplaner.in/">www.Tourplaner.in</a>
+      </strong>
     </div>
   );
 };

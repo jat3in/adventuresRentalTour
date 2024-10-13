@@ -25,11 +25,11 @@ const TourContact = ({title}) => {
     if (!email && !username && !phone && !destination) alert("Please fill all fields");
     axios
       .put(
-        `https://tourplanerbackend.onrender.com/contact`,
+        `https://tourplanerbackend.onrender.com/send-email`,
         formData
       )
       .then((res) => {
-        if (res.message === "contact created successfully") {
+        if (res.message === "Form submitted successfully") {
           alert("Contact Form submited");
           
         } else {

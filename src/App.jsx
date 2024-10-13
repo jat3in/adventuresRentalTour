@@ -6,6 +6,8 @@ import SignUpForm from "./components/form";
 import WhatsAppButton from "./components/whatsApp"
 import PhoneButton from "./components/trueCaller"
 import Address from "./components/address"
+import PrivacyPolicy from "./components/privacyPolicy"
+import TermsAndConditions from "./components/termsAndConditions"
 const Modal = ({ isOpen, onClose }) => {
   useEffect(() => {
     if (isOpen) {
@@ -55,6 +57,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tour" element={<Tour />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           </Routes>
         </div>
       </Router>
