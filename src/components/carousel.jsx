@@ -33,7 +33,6 @@ const Carousel = ({ images }) => {
           alt="Carousel"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center bg-black bg-opacity-40">
-          <img src="/lg-removebg-preview.png"/>
           <button className="bg-[#FFDA32] md:py-2 md:px-4 px-2 py-1 rounded-lg text-white font-semibold mt-3">
            <a href="/"> Book an Enquiry </a>
           </button>

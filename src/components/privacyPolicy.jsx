@@ -103,8 +103,8 @@ const PrivacyPolicy = () => {
       <h2>Contact Us</h2>
       <p>If you have any questions about this Privacy Policy, You can contact us:</p>
       <ul>
-        <li>By email: Tourplnr@gmail.com</li>
-        <li>By phone number: 9319959557</li>
+        <li>By email: adventuresrentaltour@gmail.com</li>
+        <li>By phone number: 7005204786</li>
       </ul>
       <Link to="/" style={styles.link}>Go Back</Link>
     </div>

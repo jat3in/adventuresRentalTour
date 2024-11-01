@@ -27,7 +27,7 @@ const Navbar = () => {
             className="flex items-center px-1 text-white/80"
             onClick={handleEmail}
           >
-            Tourplnr@gmail.com
+            adventuresrentaltour@gmail.com
           </button>
         </div>
         <div className="flex items-center h-full gap-x-2">
@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex h-full items-center justify-start flex-grow">
           <FaSuitcaseRolling className="text-[#13253F]" />
           <Link to="/" className="pl-1 text-[#1d242f] font-semibold">
-            TourPlanner
+            AdventuresRentalTour
           </Link>
         </div>
         <div className="flex h-full items-center justify-center flex-grow">
@@ -65,7 +65,7 @@ const Navbar = () => {
               onClick={handleCall}
               className="text-[#13253F] font-semibold"
             >
-              +91-9319959557
+              +91-7005204786
             </button>
           </div>
         </div>

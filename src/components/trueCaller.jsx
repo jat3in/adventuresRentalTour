@@ -3,7 +3,7 @@ import React from 'react';
 const PhoneButton = () => {
     return (
     <a
-      href="tel:+91-931-995-9557"
+      href="tel:+91-7005204786"
       style={{
         position: 'fixed',
         bottom: '90px', // Adjusted to be above WhatsApp button (typically at 20px bottom)
