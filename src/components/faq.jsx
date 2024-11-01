@@ -57,6 +57,14 @@ const FAQSection = () => {
       answer:
         "Yes, we offer discounts for group bookings. The discount amount depends on the group size and tour package.",
     },
+    {
+      question: "Why Choose Us?",
+      answer: "Competitive Prices: Access the best rates on flights. Personalized Service: Customized itineraries to fit your travel schedule. Expert Guidance: Assistance with flight selection and booking processes."
+    },
+    {
+      question: "Flight Ticket Booking Services Your Gateway to Seamless Travel",
+      answer: "We provide comprehensive flight ticket booking services to help you reach your desired destinations with ease. Whether you're traveling for business or leisure, we can assist with: Domestic Flights: Convenient bookings to major cities across India. International Flights: Tailored packages for overseas travel."
+    }
   ];
 
   const handleClick = (index) => {

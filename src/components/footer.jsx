@@ -6,7 +6,6 @@ const Footer = () => {
       <Link to="/privacy-policy" style={styles.footerLink}>Privacy Policy</Link>
       <Link to="/terms-and-conditions" style={styles.footerLink}>Terms & Conditions</Link>
       </strong>
-      
     </footer>
   );
 };

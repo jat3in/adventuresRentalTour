@@ -37,7 +37,12 @@ const Navbar = () => {
             </a>
           </div>
           <div className="rounded-full border-[1px] border-white p-0.5">
-            <a href="https://www.instagram.com/tourplaner.in?utm_source=qr&igsh=eW91Zmt4MHFmOWRt">
+            <a href="https://www.instagram.com/adventuresrentaltour/profilecard/?igsh=MXhycXNnbXdtM2Zqcw==">
+              <FaInstagram className="text-white "></FaInstagram>
+            </a>
+          </div>
+          <div className="rounded-full border-[1px] border-white p-0.5">
+            <a href="https://www.instagram.com/adventures_rental_tour/profilecard/?igsh=MThobHBrZjI3dGJhNA==">
               <FaInstagram className="text-white "></FaInstagram>
             </a>
           </div>

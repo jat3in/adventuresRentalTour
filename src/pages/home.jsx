@@ -6,6 +6,7 @@ import FAQSection from "../components/faq";
 import SalesBanner from "../components/banner";
 import SignUpForm from "../components/form";
 import Footer from "../components/footer";
+import OfferComponent from "../components/offer";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 
@@ -103,16 +104,17 @@ const Home = () => {
               <h1 className="text-2xl  font-semibold text-[#0F1E32]">
                 {pkg.title}
               </h1>
-              <div className="mb-2 flex gap-x-2 ">
-                {pkg.itinerary.map((item) => (
-                  <span
-                    key={item}
-                    className="bg-[#FFDA32] px-2 rounded-full  text-[#1C2B38]"
-                  >
-                    {item}
-                  </span>
-                ))}
+              <div className="mb-2 flex flex-wrap gap-x-2">
+                    {pkg.itinerary.map((item) => (
+                      <span
+                        key={item}
+                        className="bg-[#FFDA32] mt-2 mb-2 px-2 rounded-full text-[#1C2B38]"
+                      >
+                        {item}
+                      </span>
+                    ))}
               </div>
+
               <ul className="space-y-2">
                 <li className="flex items-center gap-x-1">
                   <FaClock className="text-[#0F1E32]" />
@@ -142,6 +144,9 @@ const Home = () => {
           ))}
         </div>
       </section>
+      <section className="pb">
+        <OfferComponent></OfferComponent>
+      </section>
       <section>
         <FAQSection></FAQSection>
       </section>
@@ -150,9 +155,7 @@ const Home = () => {
           <SignUpForm></SignUpForm>
         </div>
       </section>
-      <section className="pb-16">
-        <SalesBanner></SalesBanner>
-      </section>
+    
       <Footer></Footer>
     </div>
   );
