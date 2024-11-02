@@ -173,7 +173,7 @@ const packages = [
     transportation: "AC Indica/Indigo Car",
     meals: "09 Breakfast And 09 Dinner",
     imgSrc:
-      "/hwgt.jpg",
+      "/hgold.jpg",
     brief: "Explore Himachal Pradesh and visit the Golden Temple in Amritsar.",
     details: [
       "02 Nights Accommodation At Shimla",
