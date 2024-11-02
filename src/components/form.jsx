@@ -25,7 +25,7 @@ const SignUpForm = () => {
     if (!email && !username && !phone) alert("Please fill all fields");
     axios
       .post(
-        `https://tourplanerbackend.onrender.com/send-email`,
+        `https://adventuresrentaltourbackend.onrender.com/send-email`,
         formData
       )
       .then((res) => {
