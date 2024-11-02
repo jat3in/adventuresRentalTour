@@ -4,7 +4,7 @@ const Address = () => {
   return (
     <div style={styles.container}>
       <strong className="mx-auto text-[#FFDA32]">
-        © 2024 Copyright: <a href="#">www.adventuresrentaltour.com</a>
+        © 2024 Copyright: <a href="https://adventuresrentaltour.com/">www.adventuresrentaltour.com</a>
       </strong>
     </div>
   );
